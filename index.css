@@ -56,19 +56,110 @@
 }
 
 .photo {
-    box-shadow: 0 0 10px 10px gray; /* Add a border */
+    box-shadow: 0 0 20px 10px gray; /* Add a border */
     border-radius: 10px; /* Optional: rounded corners */
     max-width: 100%; /* Keep the image responsive */
     max-height: 100%; /* Ensure it fits within the container */
 }
 
+.photo_container{
+    max-height:100%;
+    max-width: 100%;
+}
+
+.info_container {
+    padding-left:10rem;
+    padding-top: 3rem;
+}
+
 .title{
-    padding-bottom:0 !important;
-    margin-bottom:0 !important;
+    color: gray;
+    padding-top:2rem;
+    padding-bottom:0;
+    margin-bottom:0;
 }
 
 .name{
     font-size: 3rem;
     padding-top: 0;
     margin-top: 0;
+}
+
+.info .intro {
+    color: gray;
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 2rem;
+    width: 100%; /* Adjust width as needed */
+    max-width: 500px; /* Set a maximum width */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+
+    
+
+}
+
+
+.resume .section-title{
+    padding-top:2rem;
+}
+.resume .resume-title {
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.resume .resume-item {
+    padding: 0 0 20px 20px;
+    border-left: 2px solid gray;
+    position: relative;
+}
+
+    .resume .resume-item h4 {
+        line-height: 18px;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: "Poppins", sans-serif;
+        color: maroon;
+        margin-bottom: 10px;
+    }
+
+    .resume .resume-item h5 {
+        font-size: 16px;
+        background: maroon;
+        padding: 5px 15px;
+        display: inline-block;
+        font-weight: 600;
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    .resume .resume-item ul {
+        padding-left: 20px;
+    }
+
+        .resume .resume-item ul li {
+            padding-bottom: 5px;
+        }
+
+    .resume .resume-item:last-child {
+        padding-bottom: 0;
+    }
+
+    .resume .resume-item::before {
+        content: "";
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        border-radius: 50px;
+        left: -9px;
+        top: 0;
+        background: maroon;
+        border: 2px solid gray;
+    }
+
+.resume{
+    background-color: white;
 }
