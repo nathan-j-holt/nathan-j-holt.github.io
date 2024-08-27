@@ -1,0 +1,37 @@
+﻿.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.navbar-dark .navbar-nav .active .nav-link {
+    color: gray;
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link:hover {
+    color: gray;
+}
+
+.navbar {
+    background-color: #212121 !important;
+}
+
+.navbar .navbar-brand {
+    font-size: 2rem;
+}
+
+.py-3{
+    padding-right: 7rem;
+    padding-left: 7rem;
+    color:black
+}
+
+.footer .nav-link {
+    color: black !important; /* Set desired color */
+}
+
+.footer .nav-link:hover {
+    color: gray !important; /* Set desired color */
+}
