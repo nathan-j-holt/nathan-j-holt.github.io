@@ -151,6 +151,15 @@
 }
 
 .resume-download{
-    padding-top
+    color:white;
+    background-color:maroon;
+    margin-top: 2rem;
     width: 30%;
+    border-color:white;
+}
+
+.resume-download:hover{
+    color:maroon;
+    background-color: white;
+    border-color:maroon;
 }
