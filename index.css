@@ -28,11 +28,11 @@
     color:black
 }
 
-.footer{
+/*.footer{
     display:flex !important;
     flex-direction:column !important;
     min-height: 0vh !important;
-}
+}*/
 
 .footer .nav-link {
     color: black !important; /* Set desired color */
