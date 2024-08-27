@@ -68,7 +68,6 @@
 }
 
 .info_container {
-    padding-left:10rem;
     padding-top: 3rem;
 }
 
@@ -92,8 +91,8 @@
     padding-bottom: 2rem;
     width: 100%; /* Adjust width as needed */
     max-width: 500px; /* Set a maximum width */
-    align-items: center; /* Center content vertically */
-    justify-content: center; /* Center content horizontally */
+    /*align-items: center;*/ /* Center content vertically */
+    /*justify-content: center;*/ /* Center content horizontally */
 
     
 
