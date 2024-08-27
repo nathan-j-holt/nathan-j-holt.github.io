@@ -72,9 +72,6 @@
     padding-right:0rem;
 }
 
-.info{
-
-}
 
 .title{
     color: gray;
@@ -88,21 +85,6 @@
     padding-top: 0;
     margin-top: 0;
 }
-
-.info .intro {
-    color: gray;
-    padding-top: 0;
-    margin-top: 0;
-    padding-bottom: 2rem;
-    width: 100%; /* Adjust width as needed */
-    max-width: 500px; /* Set a maximum width */
-    /*align-items: center;*/ /* Center content vertically */
-    /*justify-content: center;*/ /* Center content horizontally */
-
-    
-
-}
-
 
 .resume .section-title{
     padding-top:2rem;
@@ -166,4 +148,9 @@
 
 .resume{
     background-color: white;
+}
+
+.resume-download{
+    padding-top
+    width: 30%;
 }
