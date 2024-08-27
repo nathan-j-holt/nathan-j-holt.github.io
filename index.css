@@ -68,7 +68,12 @@
 }
 
 .info_container {
-    padding-top: 3rem;
+    padding-left:0rem;
+    padding-right:0rem;
+}
+
+.info{
+
 }
 
 .title{
