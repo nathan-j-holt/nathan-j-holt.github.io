@@ -28,10 +28,29 @@
     color:black
 }
 
+.footer{
+    display:flex !important;
+    flex-direction:column !important;
+    min-height: 0vh !important;
+}
+
 .footer .nav-link {
     color: black !important; /* Set desired color */
 }
 
 .footer .nav-link:hover {
     color: gray !important; /* Set desired color */
+}
+
+
+.email .email_container .link a{
+    color:gray;
+}
+
+.email .email_container .link a:hover{
+    color: cornflowerblue;
+}
+
+.phone .phone_container .p{
+    color:black;
 }
