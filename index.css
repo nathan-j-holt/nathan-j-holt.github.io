@@ -163,3 +163,33 @@
     background-color: white;
     border-color:maroon;
 }
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+
+.custom-img {
+    height: 400px; /* Adjust the height as needed */
+    object-fit: cover;
+}
+
+.card {
+    height: 100%;
+    margin: 1rem;
+
+}
+
+.card-body {
+    height: 200px; /* Adjust based on your content */
+}
+
+.card .btn-group {
+    margin-top: auto;
+}
+
+.row .col-md-6 {
+    margin-bottom: 20px;
+    
+}
+
