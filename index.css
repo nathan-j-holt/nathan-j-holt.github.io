@@ -177,6 +177,7 @@
 .card {
     height: 100%;
     margin: 1rem;
+    min-height: 400px;
 
 }
 
@@ -193,3 +194,8 @@
     
 }
 
+@media (max-width: 1170px) {
+    .card-text {
+        font-size: 0.875rem; /* Slightly smaller text on mobile */
+    }
+}
