@@ -164,8 +164,9 @@
     border-color:maroon;
 }
 
-.card:hover{
+.card:hover {
     transform: scale(1.02);
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
 }
 
 
@@ -175,20 +176,41 @@
 }
 
 .card {
-    height: auto;
+    flex: 1; /* Allows the card to grow to fill the available space */
+    display: flex;
+    flex-direction: column; /* Ensure the content is laid out vertically */
+/*    height: auto;*/
     margin: 1rem;
-
 }
 
 .card-body {
-    height: auto; /* Adjust based on your content */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .card .btn-group {
     margin-top: auto;
+    margin-bottom: auto;
 }
 
 .row .col-md-6 {
     margin-bottom: 20px;
     
 }
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping if needed */
+}
+
+.card-img-top {
+    width: 100%; /* Ensure image fits the card width */
+    height: 400px; /* Maintain aspect ratio */
+}
+
+/*@media (max-width: 768px) {
+    .card {
+        margin-bottom: 1rem;*/ /* Add spacing between cards on mobile */
+    /*}
+}*/
