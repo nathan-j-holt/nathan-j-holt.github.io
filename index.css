@@ -154,7 +154,7 @@
     color:white;
     background-color:maroon;
     margin-top: 2rem;
-    width: 20%;
+    width: 30%;
     border-color:white;
 }
 
@@ -214,3 +214,11 @@
         margin-bottom: 1rem;*/ /* Add spacing between cards on mobile */
     /*}
 }*/
+
+@media only screen and (max-width: 390px) {
+    .resume-download {
+        display: block; /* Change to block-level */
+        width: 100%; /* Full width */
+        text-align: center; /* Center text */
+    }
+}
