@@ -194,7 +194,7 @@
     
 }
 
-@media (max-width: 1170px) {
+@media (max-width: 400px) {
     .card-text {
         font-size: 0.875rem; /* Slightly smaller text on mobile */
     }
