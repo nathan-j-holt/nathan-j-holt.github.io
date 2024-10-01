@@ -199,6 +199,10 @@
     
 }
 
+.row .col-md-12{
+    width: 500px;
+}
+
 .d-flex {
     display: flex;
     flex-wrap: wrap; /* Allow wrapping if needed */
